@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0101</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">0101</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Veggies</a></li>
+                <li><a class="dropdown-item" href="#">Grocery</a></li>
+                <li><a class="dropdown-item" href="#">Packed</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">All items</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Dashborad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart</a>
+            </li>
+          </ul>
+          <button
+            style="margin-right: 8px"
+            type="button"
+            class="btn btn-outline-danger"
+          >
+            Log In
+          </button>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <h3 class="sec-head">Shops Near You</h3>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="s3.jfif" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Shop A</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+              officia nisi possimus itaque dolorum voluptatibus velit aspernatur
+              modi amet accusamus, odit quia suscipit incidunt. Est.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last visited 5 hours ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="s1.jfif" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Shop B</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              ex quo sequi aut ea velit quidem quos. Voluptas debitis incidunt
+              iure ratione. Animi, quod corporis!
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last visited 1 day ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="s2.jfif" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Shop C</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              aperiam tenetur velit quidem ducimus aliquam. Eaque architecto
+              dolorum, soluta quos labore sequi corporis. Reprehenderit,
+              repellendus!
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last visited 3 days ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sec-head">Recently Bought</h3>
+
+    <div
+      class="align-content-center text-center row row-cols-1 row-cols-md-3 g-4"
+    >
+      <div class="col">
+        <div class="card" style="width: 100%">
+          <img style="width: 80%; object-fit: cover;" src="r1.jfif" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Monthly Ration</h5>
+            <p class="card-text">
+              | Saved List | You created this list on 12/June/2021
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Grocery packed</li>
+            <li class="list-group-item">Organics</li>
+            <li class="list-group-item">Raw food</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Add item</a>
+            <a href="#" class="card-link">Copy & Create new list</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 100%">
+          <img src="r2.jfif" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Quick buys</h5>
+            <p class="card-text">
+              | Saved List | You created this list on 09/June/2021
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Ketchup</li>
+            <li class="list-group-item">Makeup accessories</li>
+            <li class="list-group-item">Kids chocolates</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Add item</a>
+            <a href="#" class="card-link">Copy & Create new list</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 100%;">
+          <img src="r3.jfif" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Quick buys</h5>
+            <p class="card-text">
+              | Saved List | You created this list on 09/June/2021
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Ketchup</li>
+            <li class="list-group-item">Makeup accessories</li>
+            <li class="list-group-item">Kids chocolates</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Add item</a>
+            <a href="#" class="card-link">Copy & Create new list</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
